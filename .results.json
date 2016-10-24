@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2016-07-26T20:54:43.066Z",
-    "end": "2016-07-26T20:54:43.073Z",
-    "duration": 7
+    "start": "2016-10-24T16:42:34.487Z",
+    "end": "2016-10-24T16:42:41.909Z",
+    "duration": 7422
   },
   "tests": [],
   "pending": [],
@@ -15,11 +15,11 @@
     {
       "title": "\"before all\" hook",
       "fullTitle": " \"before all\" hook",
-      "duration": 1,
+      "duration": 7380,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: President is not defined\n    at Context.before (test/index-test.js:3:23)",
-        "message": "President is not defined"
+        "stack": "Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test.",
+        "message": "timeout of 2000ms exceeded. Ensure the done() callback is being called in this test."
       }
     }
   ],
